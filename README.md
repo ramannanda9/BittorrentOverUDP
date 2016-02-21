@@ -5,8 +5,7 @@ The project implementation of Bittorrent Protocol over UDP
 * More Details about the project structure are in the project report
 
 1. For the detailed design specification read the document.
-2. Entire source code has been written by me over the course of week. (Pretty hectic week)
-3. The main class of the code is SetupPeer.java. This is the entry point. Rest of the specification is copied from the document itself.
+2. The main class of the code is SetupPeer.java. This is the entry point. Rest of the specification is copied from the document itself.
 
 Source code files and their description.
 
@@ -18,4 +17,4 @@ Source code files and their description.
 
 *	FileHelper (FileHelper.java): This class is used for handling all file related portions including reading chunks of data from master data file, writing output chunk and peer-problem files to temporary directory.  
 
-*	SetupPeer (SetupPeer.java): This is the entry point for the project, it handles user input, prints out help message for command usage on the command line, initiates a peer instance, and starts monitor thread of peer. 
+*	SetupPeer (SetupPeer.java): This is the entry point for the project, it handles user input, prints out help message for command usage on the command line, initiates a peer instance, and starts monitor thread of peer.
