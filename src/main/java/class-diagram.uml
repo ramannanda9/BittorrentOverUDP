@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="102.0">edu.nyu.dcn.bittorrentudp.core.Peer.ReliabilityAndCongestionHandler</node>
+    <node x="0.0" y="662.0">edu.nyu.dcn.bittorrentudp.core.Packet</node>
+    <node x="503.0" y="662.0">edu.nyu.dcn.bittorrentudp.pojo.PeerAddress</node>
+    <node x="178.0" y="941.0">edu.nyu.dcn.bittorrentudp.core.Packet.PACKETTYPE</node>
+    <node x="526.75" y="0.0">edu.nyu.dcn.bittorrentudp.core.Peer</node>
+    <node x="790.0" y="311.0">edu.nyu.dcn.bittorrentudp.core.Peer.NodeChunkDate</node>
+    <node x="0.0" y="1016.0">edu.nyu.dcn.bittorrentudp.util.FileHelper</node>
+    <node x="132.0" y="1016.0">edu.nyu.dcn.bittorrentudp.util.SetupPeer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.nyu.dcn.bittorrentudp.core.Packet.PACKETTYPE" target="edu.nyu.dcn.bittorrentudp.core.Packet">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="114.5" />
+    </edge>
+    <edge source="edu.nyu.dcn.bittorrentudp.core.Peer.ReliabilityAndCongestionHandler" target="edu.nyu.dcn.bittorrentudp.core.Peer">
+      <point x="0.0" y="-257.5" />
+      <point x="385.0" y="77.0" />
+      <point x="585.25" y="77.0" />
+      <point x="-58.5" y="26.0" />
+    </edge>
+    <edge source="edu.nyu.dcn.bittorrentudp.core.Peer.NodeChunkDate" target="edu.nyu.dcn.bittorrentudp.core.Peer">
+      <point x="0.0" y="-48.5" />
+      <point x="902.5" y="77.0" />
+      <point x="702.25" y="77.0" />
+      <point x="58.5" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="269.9999999999991" y="770.3333333333329" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

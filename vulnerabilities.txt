@@ -1,0 +1,2 @@
+1. Highly lossy connection can lead to peer rejection by nodes and reinitiation of download cycle. 
+2. There is no check for packet integrity till the entire chunk packets are downloaded and only then can the hash be verified. 
